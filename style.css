@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+body {
+
+    background-image: url("fondo\ 3.png");
+    /* background: linear-gradient(rgba(5, 7, 12, 0.76), rgba(5, 7, 12, 0.904)); */
+
+    background-size: cover;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#particles-js {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+nav {
+    max-width: auto;
+    margin: 20px auto;
+    /*ubicacion del banner menu*/
+    background-color: rgba(252, 252, 252, 0.363);
+    font-size: 20px;
+    border-radius: 3px;
+
+
+}
+
+.menu-horizontal {
+
+
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+.menu-horizontal>li>a {
+    display: block;
+    padding: 5px 20px;
+    color: white;
+    text-decoration: none;
+
+
+
+}
+
+.menu-horizontal>li:hover {
+    background-color: red;
+
+
+
+
+}
+
+.menu-vertical {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0, 0, 0, .5);
+
+
+}
+
+.menu-horizontal li:hover .menu-vertical {
+    display: block;
+    border-radius: 10px;
+
+}
+
+.menu-vertical li:hover {
+    background-color: black;
+}
+
+.menu-vertical li a {
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+
+
+
+
+}
+
+.menu-horizontal a {
+    font-size: 17px;
+
+}
